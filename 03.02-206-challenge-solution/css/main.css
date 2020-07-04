@@ -15,6 +15,7 @@ html, body {
   margin: auto;
 }
 
+
 /*---------- HEADER ----------*/
 
 header {
@@ -33,15 +34,15 @@ header {
 }
 
 #column-1 {
-  background: #fefbd8;
-}
-
-#column-2 {
-  background: #80ced6;
-}
-
-#column-3 {
   background: #d5d5d5;
+}
+
+#column-2{
+  background: #c4c4c4;
+}
+
+#column-3{
+  background: #b7b7b7;
 }
 
 
@@ -55,62 +56,60 @@ footer {
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
+/* Change the colors below */
 
 @media (min-width: 768px) {
   header {
-    background-color: #0000FF;
+    background-color: #666;
   }
 
   #column-1 {
-    background-color: #8A2BE2;
+    background-color: #e3e3e3;
   }
 
   #column-2 {
-    background-color: #A52A2A;
+    background-color: #CCC;
   }
 
   #column-3 {
-    background-color: #DEB887;
+    background-color: #999;
     width: 100%;
   }
 
   footer {
-    background-color: #5F9EA0;
+    background-color: #666;
   }
 
-.col-3 {
+  .col-3 {
     width: 50%;
   }
-
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: #7FFF00;
+    background-color: #000;
   }
 
   #column-1 {
-    background-color: #D2691E;
+    background-color: #999;
   }
 
   #column-2 {
-    background-color: #FF7F50;
+    background-color: #666;
   }
 
   #column-3 {
-    background-color: #6495ED;
+    background-color: #333;
     width: 33.3%;
   }
 
   footer {
-    background-color: #DC143C;
+    background-color: #000;
   }
 
   .col-3 {
-      width: 33.3%;
-    }
-
+    width: 33.3%;
+  }
 }
